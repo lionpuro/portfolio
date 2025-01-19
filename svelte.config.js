@@ -9,12 +9,15 @@ const config = {
 		adapter: adapter({
 			pages: "build",
 			assets: "build",
-			fallback: "app.html",
+			fallback: "index.html",
 			precompress: false,
 			strict: true,
 		}),
 		alias: {
+			"$lib/*": "./src/lib/*",
 			"~/*": "./src/*",
+			"$paraglide/*": "./src/lib/paraglide/*",
+			$messages: "./src/lib/paraglide/messages.js",
 		},
 	},
 };

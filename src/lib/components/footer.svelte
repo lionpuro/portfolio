@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { GithubIcon } from "~/lib/components/icons";
+	import { GithubIcon } from "$lib/components/icons";
 </script>
 
 <footer class="flex flex-col">
