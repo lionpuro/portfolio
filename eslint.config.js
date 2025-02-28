@@ -31,5 +31,5 @@ export default ts.config(
 			},
 		},
 	},
-	{ ignores: ["./src/lib/paraglide/*"] },
+	{ ignores: ["src/lib/paraglide/*"] },
 );
