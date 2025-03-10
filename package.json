@@ -10,6 +10,7 @@
 		"format": "prettier --write ."
 	},
 	"dependencies": {
+		"@fontsource-variable/open-sans": "^5.2.5",
 		"@tailwindcss/vite": "^4.0.12",
 		"astro": "^5.4.2",
 		"tailwindcss": "^4.0.12"
